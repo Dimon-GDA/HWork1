@@ -23,6 +23,8 @@
 		84231E0616BFFF69006A25CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84231DE116BFFF69006A25CC /* Foundation.framework */; };
 		84231E0E16BFFF69006A25CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84231E0C16BFFF69006A25CC /* InfoPlist.strings */; };
 		84231E1116BFFF69006A25CC /* HWork1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84231E1016BFFF69006A25CC /* HWork1Tests.m */; };
+		84231E1C16BFFF81006A25CC /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 84231E1B16BFFF81006A25CC /* Human.m */; };
+		84231E1F16BFFF93006A25CC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 84231E1E16BFFF93006A25CC /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		84231E0D16BFFF69006A25CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84231E0F16BFFF69006A25CC /* HWork1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWork1Tests.h; sourceTree = "<group>"; };
 		84231E1016BFFF69006A25CC /* HWork1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWork1Tests.m; sourceTree = "<group>"; };
+		84231E1A16BFFF81006A25CC /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		84231E1B16BFFF81006A25CC /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		84231E1D16BFFF93006A25CC /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		84231E1E16BFFF93006A25CC /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				84231DEE16BFFF69006A25CC /* MYAppDelegate.h */,
+				84231E1D16BFFF93006A25CC /* Student.h */,
+				84231E1E16BFFF93006A25CC /* Student.m */,
+				84231E1A16BFFF81006A25CC /* Human.h */,
+				84231E1B16BFFF81006A25CC /* Human.m */,
 				84231DEF16BFFF69006A25CC /* MYAppDelegate.m */,
 				84231DF716BFFF69006A25CC /* MainStoryboard.storyboard */,
 				84231DFA16BFFF69006A25CC /* MYViewController.h */,
@@ -274,6 +284,8 @@
 				84231DEC16BFFF69006A25CC /* main.m in Sources */,
 				84231DF016BFFF69006A25CC /* MYAppDelegate.m in Sources */,
 				84231DFC16BFFF69006A25CC /* MYViewController.m in Sources */,
+				84231E1C16BFFF81006A25CC /* Human.m in Sources */,
+				84231E1F16BFFF93006A25CC /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

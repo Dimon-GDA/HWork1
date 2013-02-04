@@ -7,6 +7,7 @@
 //
 
 #import "MYViewController.h"
+#import "Student.h"
 
 @interface MYViewController ()
 
@@ -26,4 +27,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)ButtonOK:(UIButton *)sender {
+    
+    Student *var1=[Student StudentwithName:@"Dmitriy" andLastName:@"Galkin"];
+    
+    
+    var1.StudentPrint;
+  
+    
+}
 @end
