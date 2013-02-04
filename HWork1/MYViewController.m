@@ -14,7 +14,7 @@
 @end
 
 @implementation MYViewController
-
+@synthesize TextFieldFName,TextFieldLName;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -27,13 +27,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)ButtonOK:(UIButton *)sender {
-    
-    Student *var1=[Student StudentwithName:@"Dmitriy" andLastName:@"Galkin"];
+
+- (IBAction)ButtonOk:(UIButton *)sender {
+    Student *var1=[Student StudentwithName:TextFieldFName.text andLastName:TextFieldLName.text];
     
     
     var1.StudentPrint;
-  
-    
 }
 @end
